@@ -2,7 +2,7 @@
 int numberA = Convert.ToInt32(Console.ReadLine());
 int numberB = Convert.ToInt32(Console.ReadLine());
 int numberC = Convert.ToInt32(Console.ReadLine());
-int max;
+int max = numberA;
 if (numberA > numberB)
 {
     max = numberA;

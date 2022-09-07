@@ -12,7 +12,7 @@ int [] GetArray (int size, int leftRange, int rightRange) // Функция за
     return array;
 }
 
-int SumOfOddElements (int [] array)
+int SumOfOddElementsArray (int [] array)  // Функция подсчета суммы нечетных элементов массива
 {
     int sum = 0;
     for (int i = 1; i < array.Length; i = i + 2)
@@ -25,4 +25,4 @@ int SumOfOddElements (int [] array)
 int [] arr = GetArray (12, 100, 999); // Задаем массив из 12 элементов в диапазоне чисел от 100 до 999
 
 Console.WriteLine(string.Join("," , arr));
-Console.WriteLine($"Сумма всех нечетных элементов массива равна {SumOfOddElements (arr)}");
+Console.WriteLine($"Сумма всех нечетных элементов массива равна {SumOfOddElementsArray (arr)}");
